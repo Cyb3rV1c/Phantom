@@ -23,7 +23,7 @@ This tool can be used for advanced cybersecurity testing, allowing users to exec
 **Installation**
 
 
-1- Clone the repository:=
+1- Clone the repository:
 ```
 git clone https://github.com/Cyb3rV1c/Phantom
 ```
