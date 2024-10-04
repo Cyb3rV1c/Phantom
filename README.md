@@ -29,7 +29,7 @@ git clone https://github.com/Cyb3rV1c/Phantom
 ```
 
 
-2. Build Xor_Encryptor.sln
+2. Build Release Xor_Encryptor.sln
 
 
 # Usage
@@ -43,7 +43,7 @@ git clone https://github.com/Cyb3rV1c/Phantom
 ```
 3. Copy encrypted code from command prompt output & add it to phantom.sln
 
-4. Build Phantom Executable
+4. Build Release Phantom Executable
 
 ***Notice***: Make sure your shellcode is created for the same architecture as the environment you'll execute it in.
 
