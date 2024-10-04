@@ -43,7 +43,26 @@ git clone https://github.com/Cyb3rV1c/Phantom
 
 # Technical Details
 
+**Virtual Machine Detection:**
+Utilizes GetSystemInfo() and GlobalMemoryStatusEx() to detect hardware characteristics, such as CPU cores and available RAM, which can help identify virtual environments.
 
+**Debugger Detection:**
+Uses the Toolhelp API with CreateToolhelp32Snapshot(), Process32FirstW(), and Process32NextW() to scan for running processes and check for known debugger processes (like x64dbg, ida.exe, etc.).
+
+**Static Analysis Tools Detection:**
+Similar to debugger detection, the Toolhelp API is also used to detect common analysis tools (e.g., ProcessHacker, PeStudio, ProcMon) by checking their process names.
+
+**Shellcode Injection:**
+Remote Process Injection via OpenProcess(), VirtualAllocEx(), WriteProcessMemory(), and CreateRemoteThread() to inject and execute XOR-encrypted shellcode into a remote process.
+
+**XOR Encryption/Decryption:**
+A simple XOR-based decryption routine is used to deobfuscate the shellcode before injection, providing a layer of evasion from static analysis.
+
+**Shellcode Encryption:**
+**Separate Tool:** A dedicated tool is provided for XOR encryption of shellcode to obfuscate it before integrating the shellcode in Phantom Tool.
 
 
 # Disclaimer
+**This project is intended for educational and research purposes only.**
+
+The code provided in this repository is designed to help individuals understand and improve their knowledge of cybersecurity, ethical hacking, and malware analysis techniques. It must not be used for malicious purposes or in any environment where you do not have explicit permission from the owner.
