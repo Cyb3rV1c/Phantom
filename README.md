@@ -34,7 +34,6 @@ git clone https://github.com/Cyb3rV1c/Phantom
 
 
 ![Shellcode_Injected](https://github.com/user-attachments/assets/34738791-a780-4dd9-905c-763d72b76ed1)
-![Meterpreter_success](https://github.com/user-attachments/assets/842ae165-fa46-4b9b-9d24-b17c7866934c)
 
 
 **Memory Dump**
