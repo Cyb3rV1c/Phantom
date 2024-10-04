@@ -10,3 +10,16 @@ XOR-encrypted shellcode injector for memory-based execution in remote processes,
 
 # Getting Started
 
+
+
+
+# Example Output
+
+
+
+# Technical Details
+
+
+
+
+# Disclaimer
