@@ -45,7 +45,7 @@ git clone https://github.com/Cyb3rV1c/Phantom
 
 4. Build Release Phantom Executable
 
-***Notice***: Make sure your shellcode is created for the same architecture as the environment you'll execute it in.
+***Notice***: Make sure your shellcode has the same architecture as the environment you'll execute it in.
 
 # Example Output
 
