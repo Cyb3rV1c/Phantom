@@ -22,9 +22,25 @@ This tool can be used for advanced cybersecurity testing, allowing users to exec
 
 **Installation**
 
-1- Clone the repository:
+
+1- Clone the repository:=
 ```
 git clone https://github.com/Cyb3rV1c/Phantom
+```
+
+
+2- Build both tools (Phantom & Xor_Encryptor)
+
+
+
+**Usage**
+
+1. Add your .raw shellcode file in the same directory as the Xor_Encryptor Tool
+
+2. Execute the tool :
+
+```
+.\Encryptor_xor.exe reverseshell.raw
 ```
 
 
