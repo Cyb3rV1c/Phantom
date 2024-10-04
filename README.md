@@ -23,17 +23,16 @@ This tool can be used for advanced cybersecurity testing, allowing users to exec
 **Installation**
 
 
-1- Clone the repository:
+1. Clone the repository:
 ```
 git clone https://github.com/Cyb3rV1c/Phantom
 ```
 
 
-2- Build both tools (Phantom & Xor_Encryptor)
+2. Build Xor_Encryptor.sln
 
 
-
-**Usage**
+# Usage
 
 1. Add your .raw shellcode file in the same directory as the Xor_Encryptor Tool
 
@@ -42,7 +41,11 @@ git clone https://github.com/Cyb3rV1c/Phantom
 ```
 .\Encryptor_xor.exe reverseshell.raw
 ```
+3. Copy encrypted code from command prompt output & add it to phantom.sln
 
+4. Build Phantom Executable
+
+***Notice***: Make sure your shellcode is created for the same architecture as the environment you'll execute it in.
 
 # Example Output
 
@@ -76,6 +79,12 @@ A simple XOR-based decryption routine is used to deobfuscate the shellcode befor
 
 **Shellcode Encryption:**
 **Separate Tool:** A dedicated tool is provided for XOR encryption of shellcode to obfuscate it before integrating the shellcode in Phantom Tool.
+
+
+
+
+
+
 
 
 # Disclaimer
