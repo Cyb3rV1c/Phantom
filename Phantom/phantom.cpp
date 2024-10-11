@@ -4,7 +4,7 @@
  * Description: Shellcode injection program with virtual machine detection,
  *              debugger detection, static analysis tools detection, XOR
  *				decryption, and remote process injection.
- * License: MIT License (or any other license you choose)
+ * License: MIT License
  *
  * This code was written by Cyb3rV1c and is a work in progress for cybersecurity
  * educational purposes. Unauthorized use or distribution is not allowed without
